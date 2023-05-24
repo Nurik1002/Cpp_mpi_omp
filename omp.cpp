@@ -8,7 +8,7 @@ int main(int argc, char* argv[])
   
     #pragma omp parallel private(nthreads, tid)
     {
-        // Oqim raqamini olish
+        // Jarayon raqamini olish
         tid = omp_get_thread_num();
         printf("thread = %d\n",
                tid);
