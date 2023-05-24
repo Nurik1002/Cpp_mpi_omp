@@ -1,0 +1,16 @@
+1. Install MPI
+sudo apt install mpich
+
+Run MPI programm
+
+mpic++ main.cpp -o main
+mpirun -np 5 --oversubscribe ./main 
+
+2. Install OpenMP
+sudo apt install gcc
+echo |cpp -fopenmp -dM |grep -i open
+sudo apt install libomp-dev
+
+Run OpenMP programm
+g++ -o omp -fopenmp omp.cpp 
+./omp
