@@ -51,7 +51,7 @@ int main(int argc, char **argv){
     }
 
     cout << "\nprocess : " << rank << " a = " << a << " b = " << b;
-
+    MPI_Finalize();
     return 0;
 }
 
