@@ -1,5 +1,6 @@
 // 6) Bir jarayondan 2- jarayonga 2 ta MPI_FLOAT tipidagi ma’lumot
 //  jo’nating va bu ma’lumotlarni ekranga chop eting.
+
 #include <mpi.h>
 #include <iostream>
 

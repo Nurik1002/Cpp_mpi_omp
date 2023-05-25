@@ -93,6 +93,7 @@ int main(int argc, char **argv) {
 // Qabul qilingan  int data: 11 22 33 
 // Qabul qilingan  float data: 31.9714 97.7918 96.618 
 // Qabul qilingan  double data: 234.259 223.18 656.414 
+
 // Qabul qilingan  int data: 205 25 3 
 // Qabul qilingan  float data: 31.1414 14.7412 15.6142 
 // Qabul qilingan  double data: 19.5141 14.4172 14.4142 
