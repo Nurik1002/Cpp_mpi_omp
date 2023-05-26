@@ -173,7 +173,7 @@ int main()
     // // 0 oqimdagi n qiymati (yana): 0
     // // 3 oqimdagi n qiymati (yana): 3
 
-//     //reduction
+// //reduction
 //     int i;
 //     int sum = 0;
 
