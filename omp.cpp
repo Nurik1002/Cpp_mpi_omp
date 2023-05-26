@@ -173,8 +173,19 @@ int main()
     // // 0 oqimdagi n qiymati (yana): 0
     // // 3 oqimdagi n qiymati (yana): 3
 
-    
+//     //reduction
+//     int i;
+//     int sum = 0;
 
+//     #pragma omp parallel for reduction(+: sum)
+//     for (i = 0; i < 10; i++) {
+//         sum += i;
+//     }
+
+//    printf("\nSum : %d\n", sum);
+
+//    // Ouput : 
+//    // Sum : 45
     return 0;
 }
 
